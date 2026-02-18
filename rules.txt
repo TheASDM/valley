@@ -1,0 +1,181 @@
+=== THE CRIMSON TAVERN CHRONICLES - HOUSE RULES ===
+
+This document outlines the custom rules and modifications we use in our campaign. These rules are designed to enhance fun, encourage creativity, and maintain balance while adding our own flavor to the game.
+
+=== CORE RULES FOUNDATION ===
+
+We use D&D 5th Edition as our base system with the following modifications and clarifications.
+
+=== CRITICAL HITS ===
+
+Standard D&D critical hits can feel underwhelming, so we've enhanced them:
+
+When you roll a natural 20 on an attack roll:
+1. The attack automatically hits regardless of AC
+2. Roll your weapon damage dice TWICE (not just once more as in standard rules)
+3. Add your normal modifiers once
+4. Add any applicable bonus damage (like Sneak Attack or Divine Smite) normally
+
+Example: A rogue with a rapier (1d8) and Sneak Attack (6d6) who crits would roll:
+- 2d8 (weapon doubled) + DEX modifier + 6d6 (sneak attack) + 6d6 (sneak attack doubled)
+This makes critical hits genuinely exciting and impactful!
+
+Natural 1s (Critical Fumbles):
+- We don't use critical fumble tables
+- A natural 1 simply misses
+- Exception: In dramatically appropriate moments, the DM may add flavor description but never additional mechanical penalties
+
+=== DEATH AND DYING ===
+
+We use a modified death save system that adds tension without being punitive:
+
+Standard Death Saves apply, with these additions:
+- Taking damage while unconscious causes one failed death save (as normal)
+- Healing from 0 HP requires at least 1 minute of rest before you can fight again at full capacity (represents recovering from near-death trauma)
+- If you go down three times in one combat, you gain one level of exhaustion when the combat ends
+- Resurrection magic is rare and expensive - death has weight in this campaign
+
+Valdris's injury in Session 47 demonstrates this: while he survived, he'll need weeks to recover, showing that even successful death saves don't mean you just pop back up ready to fight.
+
+=== RESTING ===
+
+Short Rest:
+- Requires 1 hour
+- Can spend Hit Dice to heal
+- Recover certain abilities as per class features
+- Must be in a relatively safe location
+
+Long Rest:
+- Requires 8 hours
+- Must include at least 6 hours of sleep
+- Can only benefit from one long rest per 24 hours
+- In dangerous locations (like dungeons), you only recover half your maximum Hit Dice
+- In safe havens (like The Crimson Tavern), you recover all Hit Dice and get other benefits
+
+=== INSPIRATION ===
+
+Inspiration works as written in the PHB, but I award it for:
+- Excellent roleplay that stays true to your character
+- Clever problem-solving
+- Taking interesting risks that enhance the story
+- Supporting other players' moments to shine
+- Making the table laugh with in-character humor
+
+You can only have one inspiration at a time, and you can give yours to another player if you want to recognize their great play.
+
+=== MULTICLASSING ===
+
+Multiclassing is allowed and follows standard PHB rules, but please discuss your plan with the DM first so we can:
+- Make sure it fits your character's story
+- Ensure you understand the mechanics
+- Work together to make it awesome
+
+=== MAGIC ITEMS ===
+
+Magic items in this campaign are:
+- More rare than in standard D&D
+- Often tied to story and lore
+- Sometimes come with histories or quirks
+- May have abilities beyond their basic description that you discover through use
+
+Identifying Magic Items:
+- Cast Identify spell (reveals most properties)
+- Short rest examining the item with Arcana check (DC 15)
+- Use it and discover properties through experimentation
+- Some properties may only reveal themselves when certain conditions are met
+
+=== HEALING POTIONS ===
+
+To keep combat flowing and reduce healing delays:
+- Drinking a healing potion uses a Bonus Action (not an Action)
+- Administering a potion to someone else still uses an Action
+- You can take maximum healing from a potion without rolling (your choice)
+
+Example: Potion of Greater Healing (4d4+4)
+- You can roll 4d4+4 for the healing, OR
+- Take 20 healing automatically (max of 4d4+4)
+
+=== FLANKING ===
+
+We use the optional flanking rules from the DMG with one modification:
+- Flanking grants advantage on melee attack rolls (as written)
+- You must be on opposite sides of the enemy
+- Both flankers must be threatening the enemy
+- Works for both PCs and monsters
+
+This encourages tactical positioning and teamwork.
+
+=== SOCIAL ENCOUNTERS ===
+
+Roleplay is heavily encouraged, but you don't need to be an actor:
+- Describe what your character does instead of acting it out if you prefer
+- Skill checks support roleplay but don't replace it
+- A great roleplay moment might reduce or eliminate the need for a check
+- Different approaches to the same problem are encouraged
+
+=== KNOWLEDGE CHECKS ===
+
+When you make a knowledge check (History, Arcana, Religion, Nature):
+- The DC determines what you know
+- Higher rolls reveal more details
+- Sometimes I'll give you accurate information with a low roll, and additional context with higher rolls
+- You can use the Lore Master chatbot on the campaign site to refresh your memory between sessions!
+
+=== EXPERIENCE & LEVELING ===
+
+We use milestone leveling instead of tracking XP:
+- You level up at dramatically appropriate moments
+- Typically after major story beats or every 3-4 sessions
+- This keeps the group at the same level
+- Lets us focus on story instead of math
+
+Current Party Level: 12 (as of Session 47)
+
+=== HOMEBREW & REFLAVORING ===
+
+I'm open to homebrew and reflavoring, with guidelines:
+- Discuss it with me first
+- It should enhance fun without breaking balance
+- Reflavoring (cosmetic changes) is almost always fine
+- Mechanical changes need more discussion
+- "Rule of cool" applies when it makes sense
+
+=== TABLE ETIQUETTE ===
+
+These aren't game rules, but they help us all have fun:
+- Be on time when possible; let the group know if you'll be late
+- No phones during play (except for character apps or quick checks)
+- Let others have their spotlight moments
+- Ask before touching others' dice or miniatures
+- Snacks and drinks are encouraged!
+- Respect the medieval tavern ambiance in the game room
+
+=== RULES DISPUTES ===
+
+During play:
+1. I'll make a quick ruling to keep the game flowing
+2. We can look up the exact rule after the session
+3. If my ruling was wrong, we'll use the correct rule going forward
+4. The important thing is to keep the game fun and moving
+
+=== SESSION ZERO AGREEMENTS ===
+
+We established these at the campaign start:
+- This is a medium-to-high magic setting
+- Tone is "heroic adventure" with moments of darkness
+- Character death is possible but not the goal
+- PvP requires consent from all involved
+- We use safety tools (X-card, lines & veils)
+- Fun is the priority - always
+
+=== QUESTIONS? ===
+
+If you're unsure about a rule:
+- Ask during the session if it's immediately relevant
+- Use the campaign site's chatbot to check between sessions
+- Send me a message anytime
+- Bring it up before the next session
+
+Remember: Rules serve the fun, not the other way around. When in doubt, we'll go with what makes the story more awesome.
+
+--- May your rolls be high and your adventures legendary! ---

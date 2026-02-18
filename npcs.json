@@ -1,0 +1,139 @@
+{
+  "valdris-the-blade": {
+    "name": "Valdris the Blade",
+    "race": "Half-Elf",
+    "class": "Fighter (Battle Master)",
+    "level": 14,
+    "status": "Critically Wounded",
+    "location": "Thornkeep - Medical Ward",
+    "affiliation": "Silver Company (Mercenary Guild)",
+    "alignment": "Lawful Neutral",
+    "description": "A grizzled veteran mercenary captain in his mid-forties, Valdris bears the scars of countless battles. His silver hair is tied back in a warrior's knot, and his steel-gray eyes miss nothing. Despite his stern demeanor, those who know him well recognize the honor and loyalty that drives his every action.",
+    "backstory": "Former captain of the Silver Company, Valdris has spent twenty years as a sellsword across the realm. Unknown to most, he was once a knight-errant who fell from grace after refusing an unjust order from a corrupt noble. He rebuilt his life as a mercenary, but never lost his code of honor.",
+    "personality": "Stern, tactical, fiercely loyal to those he considers allies. Speaks little but carries great weight when he does. Has a soft spot for underdogs and those fighting against corrupt authority.",
+    "notable_equipment": [
+      "Greatsword 'Oathkeeper' - ancestral blade",
+      "+1 Plate Armor (Silver Company colors)",
+      "Ring of Protection",
+      "Military tactics handbook"
+    ],
+    "relationships": {
+      "allies": [
+        "The Party (trusted companions)",
+        "Captain Mira Stoneforge (Silver Company second-in-command)",
+        "High Priest Aldric (old friend from knight days)"
+      ],
+      "enemies": [
+        "The Crimson Hand (current conflict)",
+        "Lord Malachar (sworn enemy)",
+        "Baron Corvain (the noble who caused his fall)"
+      ],
+      "complicated": [
+        "Lady Seraphine (former love, now married to a duke)"
+      ]
+    },
+    "combat_tactics": "Fights defensively while directing allies. Uses superiority dice to control battlefield. Prefers to protect weaker party members even at personal cost.",
+    "voice_and_mannerisms": "Deep, measured voice. Often stands with arms crossed. Tends to assess situations in silence before speaking. Rarely smiles, but when he does, it transforms his entire demeanor.",
+    "first_appearance": "Session 23: 'Swords for Hire'",
+    "key_moments": [
+      "Session 23: Agreed to help party infiltrate Thornkeep",
+      "Session 35: Revealed his past as a fallen knight",
+      "Session 42: Saved the party from an ambush, earning their complete trust",
+      "Session 47: Critically wounded protecting the party from Malachar's killing blow"
+    ],
+    "current_status": "Recovering in Thornkeep's medical ward after taking a devastating blow meant for the party. Healers say he'll survive, but recovery will take weeks. He's frustrated at his inability to continue the fight.",
+    "quest_hooks": [
+      "May ask party to deliver a letter to Lady Seraphine",
+      "His past with Baron Corvain could become relevant",
+      "The Silver Company may request the party's aid while he recovers",
+      "Valdris knows secrets about the Crimson Hand he hasn't shared"
+    ]
+  },
+  "lord-malachar": {
+    "name": "Lord Malachar the Crimson",
+    "race": "Human (suspected minor infernal heritage)",
+    "class": "Warlock/Fighter",
+    "level": 16,
+    "status": "Alive - Fled to Shadowpeak Mountains",
+    "location": "Unknown (Shadowpeak Stronghold suspected)",
+    "affiliation": "The Crimson Hand (Leader)",
+    "alignment": "Lawful Evil",
+    "description": "A tall, imposing figure always dressed in deep crimson robes trimmed with black. His features are aristocratic but unnaturally pale, and his eyes seem to gleam with inner fire. He carries himself with absolute confidence born of both political power and dark magical ability.",
+    "backstory": "Once a legitimate noble of a fallen house, Malachar made dark pacts to reclaim his family's power. He formed the Crimson Hand as both a criminal organization and a cult devoted to his mysterious patron. His ultimate goals remain unclear, but the artifacts he seeks suggest world-changing ambitions.",
+    "personality": "Charismatic, calculating, utterly ruthless. Views people as pieces on a game board. Respects power and competence, but shows no mercy to those who stand in his way. Believes the ends always justify the means.",
+    "notable_equipment": [
+      "The Crimson Blade (pact weapon)",
+      "Robes of the Archmagi (crimson)",
+      "Several captured artifacts of power",
+      "Unknown number of magical items"
+    ],
+    "relationships": {
+      "allies": [
+        "Unknown Patron (warlock pact)",
+        "The Crimson Hand cultists",
+        "Several corrupted nobles"
+      ],
+      "enemies": [
+        "The Party (growing threat)",
+        "Valdris the Blade (old enemy)",
+        "The Crown (wanted for treason)",
+        "Several good-aligned churches"
+      ]
+    },
+    "combat_tactics": "Combines eldritch blasts with skilled swordplay. Uses minions strategically. Not above fleeing to fight another day. Always has contingency plans.",
+    "voice_and_mannerisms": "Cultured, aristocratic speech. Often smiles cruelly. Gestures dramatically when casting spells. Treats combat like a performance.",
+    "first_appearance": "Session 15: 'Shadows in Thornkeep' (mentioned only)",
+    "first_direct_encounter": "Session 47: 'The Fall of Thornkeep'",
+    "key_moments": [
+      "Session 32: Publicly revealed as leader of the Crimson Hand",
+      "Session 40: Orchestrated the fall of Duke Harmond",
+      "Session 47: Confronted party in Thornkeep throne room; defeated but escaped"
+    ],
+    "current_status": "Wounded and forced to flee to his stronghold in the Shadowpeak Mountains. His phase one plans have failed, but he still possesses several artifacts of power. The party's interference has made this personal for him.",
+    "master_plan_known_elements": [
+      "Gathering artifacts of ancient power across the realm",
+      "Thornkeep was just the first city to fall",
+      "Something about 'awakening the sleeping titans'",
+      "The Crimson Hand has cells in every major city",
+      "He needs five specific artifacts - party knows of three"
+    ]
+  },
+  "captain-mira-stoneforge": {
+    "name": "Captain Mira Stoneforge",
+    "race": "Dwarf (Mountain)",
+    "class": "Fighter (Champion)",
+    "level": 11,
+    "status": "Alive and Active",
+    "location": "Thornkeep - Organizing Defense",
+    "affiliation": "Silver Company (Acting Commander)",
+    "alignment": "Lawful Good",
+    "description": "A stout, powerfully built dwarf woman with braided auburn hair shot through with gray. Her armor bears the dents and scratches of countless battles, and she wears them with pride. Her booming laugh can be heard across a battlefield, and her tactical mind is exceeded only by her loyalty to her company.",
+    "backstory": "Valdris's second-in-command for twelve years. She joined the Silver Company after her clan's mine was destroyed by an orc raid. Found a new family among the mercenaries and proved herself through valor and tactical brilliance.",
+    "personality": "Jovial, straightforward, fiercely protective of those under her command. Enjoys a good drink and a good fight in equal measure. Has zero tolerance for injustice or cowardice.",
+    "relationships": {
+      "allies": [
+        "Valdris the Blade (commander and close friend)",
+        "The Party (earning her respect)",
+        "The Silver Company"
+      ]
+    },
+    "current_situation": "Has taken command of the Silver Company while Valdris recovers. Currently organizing the defense and rebuilding of Thornkeep. May request the party's assistance with various tasks."
+  },
+  "high-priest-aldric": {
+    "name": "High Priest Aldric Brightshield",
+    "race": "Human",
+    "class": "Cleric (Life Domain)",
+    "level": 13,
+    "status": "Alive",
+    "location": "Thornkeep - Temple District",
+    "affiliation": "Church of the Dawn",
+    "description": "An elderly priest with kind eyes and silver hair. Despite his age, he radiates vitality and faith. Known for his healing abilities and his unwavering moral compass.",
+    "relationships": {
+      "allies": [
+        "Valdris (old friend from his knight days)",
+        "The Party (grateful for saving Thornkeep)"
+      ]
+    },
+    "role": "Currently overseeing the healing efforts in Thornkeep. Can provide divine assistance, information about the Crimson Hand's dark patron, and possibly hints about Valdris's past."
+  }
+}

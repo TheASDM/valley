@@ -1,0 +1,92 @@
+[
+  {
+    "session_number": 47,
+    "title": "The Fall of Thornkeep",
+    "date": "2026-01-13",
+    "location": "Thornkeep - Throne Room & Undercroft",
+    "party_level": 12,
+    "summary": "The party confronted Lord Malachar in an epic battle within the throne room of Thornkeep. After a fierce fight that pushed everyone to their limits, Malachar revealed his master plan: the Crimson Hand has been gathering five ancient artifacts to 'awaken the sleeping titans' beneath the Shadowpeak Mountains. When Valdris took a devastating blow meant for the party, it gave them the opening needed to destroy Malachar's defensive wards. Wounded and desperate, the dark lord used a contingency spell to escape to his stronghold. The party now faces a choice: pursue him immediately into dangerous territory, or stay to help rebuild Thornkeep and give Valdris time to recover.",
+    "key_events": [
+      "Epic boss battle against Lord Malachar (Phase 1)",
+      "Valdris critically wounded protecting the party",
+      "Discovery of the Shard of Eternity among the artifacts",
+      "Malachar's escape via teleportation magic",
+      "Revelation of the 'Five Artifacts' and 'Sleeping Titans' plot"
+    ],
+    "combat_encounters": [
+      {
+        "enemy": "Lord Malachar the Crimson",
+        "difficulty": "Deadly",
+        "outcome": "Enemy escaped after losing half health",
+        "notes": "Used lair actions and minions. Party focused fire after Valdris went down. Malachar fled via contingency teleport at 60 HP."
+      },
+      {
+        "enemy": "Crimson Hand Elite Guards (6)",
+        "difficulty": "Hard",
+        "outcome": "Defeated",
+        "notes": "Fought to the death defending their master"
+      }
+    ],
+    "roleplay_highlights": [
+      "Valdris's heroic sacrifice moment ('Not on my watch!')",
+      "Malachar's villain monologue about the titans",
+      "Party's heated debate about whether to pursue or protect",
+      "Captain Mira's emotional plea for help rebuilding"
+    ],
+    "treasure_and_rewards": {
+      "xp_per_character": 8500,
+      "items": [
+        "Shard of Eternity (artifact - unidentified)",
+        "Malachar's planning notes (intelligence)",
+        "+1 Crimson Hand officer swords (set of 3)",
+        "2,400 gold pieces in Thornkeep treasury"
+      ],
+      "reputation": "+2 Standing with Thornkeep citizens and Silver Company"
+    },
+    "character_moments": [
+      "Wizard's clutch Counterspell prevented Malachar from using Teleport earlier",
+      "Rogue's critical hit disabled Malachar's shield guardian",
+      "Paladin's Lay on Hands kept Valdris from death",
+      "Fighter's Action Surge dealt the damage that forced Malachar's retreat"
+    ],
+    "dm_notes": "Incredible session. The Valdris moment really hit emotionally. Party is genuinely torn between pursuit and protection - exactly the moral complexity I wanted. The Shard of Eternity will need to be identified next session. Plan to let them make the choice about their next move organically."
+  },
+  {
+    "session_number": 46,
+    "title": "Infiltrating the Keep",
+    "date": "2026-01-06",
+    "location": "Thornkeep - Undercroft & Throne District",
+    "party_level": 12,
+    "summary": "The party used the Undercroft tunnels to infiltrate Thornkeep, which had been occupied by Crimson Hand forces. They rescued several prisoners, including Captain Mira, and discovered evidence of Malachar's artifact collection in a hidden chamber. The session ended with them preparing for the final assault on the throne room.",
+    "key_events": [
+      "Stealth infiltration through ancient crypts",
+      "Rescued Captain Mira and other prisoners",
+      "Found Malachar's research notes about the Five Artifacts",
+      "Discovered the mysterious sealed door in deep Undercroft",
+      "Set up ambush positions for throne room assault"
+    ],
+    "dm_notes": "Strong stealth gameplay. The rogue really shined. The mysterious door has them intrigued - good hook for future content."
+  },
+  {
+    "session_number": 45,
+    "title": "Allies in the Shadows",
+    "date": "2025-12-23",
+    "location": "Refugee camps outside Thornkeep",
+    "party_level": 11,
+    "summary": "The party rallied displaced citizens and Silver Company mercenaries to plan a counter-assault on Thornkeep. Valdris agreed to join their cause, sharing his knowledge of the keep's defenses. They also learned that High Priest Aldric was still alive inside the city, tending to wounded in secret.",
+    "key_events": [
+      "Valdris revealed his past as a fallen knight",
+      "Created alliance between refugees and Silver Company",
+      "Gathered intelligence about Crimson Hand forces",
+      "Planned the infiltration route through the Undercroft",
+      "Bonding moment around campfire - characters shared personal stories"
+    ],
+    "roleplay_highlights": [
+      "Valdris's confession about Baron Corvain and his fall from grace",
+      "Party members opening up about their own pasts and motivations",
+      "Building trust with the Silver Company",
+      "Inspiring speech about taking back their city"
+    ],
+    "dm_notes": "Fantastic roleplay session. Very little combat, all character development and planning. This is what D&D is about."
+  }
+]

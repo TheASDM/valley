@@ -1,0 +1,71 @@
+version: '3.8'
+
+services:
+  # PostgreSQL database for Wiki.js
+  postgres:
+    image: postgres:15-alpine
+    container_name: campaign_db
+    environment:
+      POSTGRES_DB: wiki
+      POSTGRES_USER: wikijs
+      POSTGRES_PASSWORD: ChangeThisPassword123!
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    networks:
+      - campaign-network
+    restart: unless-stopped
+
+  # Wiki.js - Main campaign wiki
+  wikijs:
+    image: ghcr.io/requarks/wiki:2
+    container_name: campaign_wiki
+    depends_on:
+      - postgres
+    environment:
+      DB_TYPE: postgres
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USER: wikijs
+      DB_PASS: ChangeThisPassword123!
+      DB_NAME: wiki
+    networks:
+      - campaign-network
+    restart: unless-stopped
+
+  # Node.js chatbot powered by Claude API
+  chatbot:
+    build: ./chatbot
+    container_name: campaign_chatbot
+    environment:
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+      PORT: 3001
+    volumes:
+      - ./campaign-data:/app/data:ro
+    networks:
+      - campaign-network
+    restart: unless-stopped
+
+  # Nginx reverse proxy and static file server
+  nginx:
+    image: nginx:alpine
+    container_name: campaign_nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d:ro
+      - ./static-site:/usr/share/nginx/html:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - wikijs
+      - chatbot
+    networks:
+      - campaign-network
+    restart: unless-stopped
+
+networks:
+  campaign-network:
+    driver: bridge
+
+volumes:
+  postgres-data:

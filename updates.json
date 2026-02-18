@@ -1,0 +1,76 @@
+{
+  "updates": [
+    {
+      "id": 47,
+      "title": "Session 47: The Fall of Thornkeep",
+      "date": "2026-01-15",
+      "type": "session-recap",
+      "content": "The party finally confronted Lord Malachar in the throne room of Thornkeep. After an intense battle that saw both victories and devastating losses, the dark lord's plans were revealed - the Crimson Hand had been gathering artifacts of power across the realm, and Thornkeep was merely the first domino to fall. With Valdris gravely wounded and the city in chaos, the party must now decide: pursue Malachar to his stronghold in the Shadowpeak Mountains, or stay to help rebuild what was lost?",
+      "tags": ["combat", "boss-battle", "thornkeep", "malachar", "valdris"],
+      "wikiLink": "/wiki/sessions/session-47"
+    },
+    {
+      "id": 46,
+      "title": "New NPC: Valdris the Blade",
+      "date": "2026-01-12",
+      "type": "lore-update",
+      "content": "The veteran mercenary captain has been added to the wiki with full background, stats, and relationship details. Learn about his mysterious past as a fallen knight and his connection to the Silver Company. This stalwart ally played a crucial role in the liberation of Thornkeep.",
+      "tags": ["npc", "valdris", "silver-company"],
+      "wikiLink": "/wiki/npcs/valdris"
+    },
+    {
+      "id": 45,
+      "title": "Thornkeep District Map Updated",
+      "date": "2026-01-10",
+      "type": "map",
+      "content": "New detailed map of Thornkeep including the throne room, crypts, and newly discovered secret passages beneath the city. This map reflects the current state of the city after the recent battle, showing damaged areas and Crimson Hand infiltration routes that were discovered during Session 46.",
+      "tags": ["map", "thornkeep", "resources"],
+      "wikiLink": null
+    },
+    {
+      "id": 44,
+      "title": "Critical Hit Mechanics Updated",
+      "date": "2026-01-08",
+      "type": "rules",
+      "content": "New critical hit table added for more dramatic combat moments. Critical hits now deal maximum damage plus one additional roll of damage dice. This applies to both player characters and NPCs, creating more impactful and exciting critical moments in combat.",
+      "tags": ["rules", "combat"],
+      "wikiLink": "/wiki/rules/combat"
+    },
+    {
+      "id": 43,
+      "title": "Session 46: Infiltrating the Keep",
+      "date": "2026-01-06",
+      "type": "session-recap",
+      "content": "The party used stealth and cunning to infiltrate Thornkeep through the ancient Undercroft tunnels. They rescued Captain Mira and other prisoners, uncovered evidence of Malachar's artifact collection, and discovered a mysterious sealed door in the deep crypts. The session ended with careful preparations for the assault on the throne room.",
+      "tags": ["stealth", "rescue", "thornkeep", "undercroft"],
+      "wikiLink": "/wiki/sessions/session-46"
+    },
+    {
+      "id": 42,
+      "title": "New Magic Item: Shard of Eternity",
+      "date": "2026-01-04",
+      "type": "item",
+      "content": "A mysterious crystalline artifact recovered from the throne room battle. This shard pulses with ancient power and appears to be one of the Five Artifacts mentioned in Malachar's notes. Its full properties remain unknown, but it radiates strong transmutation magic and seems to resist the flow of time itself.",
+      "tags": ["magic-item", "artifact", "mystery"],
+      "wikiLink": "/wiki/items/shard-of-eternity"
+    },
+    {
+      "id": 41,
+      "title": "Location Update: The Shadowpeak Mountains",
+      "date": "2026-01-02",
+      "type": "lore-update",
+      "content": "Intelligence gathered from Crimson Hand documents reveals more about the mysterious Shadowpeak Mountains. These treacherous peaks are said to be the resting place of the 'Sleeping Titans' - ancient powers bound during the First Age. The mountains are largely unexplored and filled with danger, but they now serve as Lord Malachar's stronghold.",
+      "tags": ["location", "shadowpeak", "lore", "first-age"],
+      "wikiLink": "/wiki/locations/shadowpeak-mountains"
+    },
+    {
+      "id": 40,
+      "title": "Session 45: Allies in the Shadows",
+      "date": "2025-12-23",
+      "type": "session-recap",
+      "content": "The party forged alliances with displaced citizens and the Silver Company in preparation for reclaiming Thornkeep. Valdris revealed his past as a fallen knight and agreed to join their cause. The session featured exceptional roleplay as characters shared their personal stories around the campfire, deepening bonds that will be tested in battles to come.",
+      "tags": ["roleplay", "allies", "valdris", "planning"],
+      "wikiLink": "/wiki/sessions/session-45"
+    }
+  ]
+}

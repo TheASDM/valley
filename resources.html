@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - The Crimson Tavern Chronicles</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        .resources-section {
+            background: var(--medium-bg);
+            padding: var(--spacing-lg);
+            border-radius: 8px;
+            border: 2px solid var(--border-color);
+            margin-bottom: var(--spacing-lg);
+        }
+        
+        .resource-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: var(--spacing-md);
+            margin-top: var(--spacing-md);
+        }
+        
+        .resource-card {
+            background: rgba(61, 40, 23, 0.6);
+            padding: var(--spacing-md);
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .resource-card:hover {
+            border-color: var(--accent-color);
+            transform: translateY(-3px);
+        }
+        
+        .resource-icon {
+            font-size: 3rem;
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .resource-link {
+            display: block;
+            margin-top: var(--spacing-sm);
+            padding: var(--spacing-sm);
+            background: var(--primary-color);
+            color: var(--text-light);
+            border-radius: 4px;
+            text-decoration: none;
+        }
+        
+        .resource-link:hover {
+            background: #a00000;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar-left">
+            <div class="logo-section">
+                <h1 class="site-title">The Crimson<br>Tavern Chronicles</h1>
+                <p class="campaign-tagline">A D&D 5e Campaign</p>
+            </div>
+
+            <nav class="main-nav">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/wiki">Campaign Wiki</a></li>
+                    <li><a href="sessions.html">Session Archive</a></li>
+                    <li><a href="resources.html" class="active">Resources</a></li>
+                </ul>
+
+                <h3>Wiki Sections</h3>
+                <ul>
+                    <li><a href="/wiki/npcs">NPCs</a></li>
+                    <li><a href="/wiki/locations">Locations</a></li>
+                    <li><a href="/wiki/factions">Factions</a></li>
+                    <li><a href="/wiki/lore">Lore & History</a></li>
+                    <li><a href="/wiki/items">Magic Items</a></li>
+                    <li><a href="/wiki/rules">House Rules</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content">
+            <h1>Campaign Resources</h1>
+            <p>Everything you need for your adventures.</p>
+
+            <div class="resources-section">
+                <h2>📜 Character Resources</h2>
+                <div class="resource-grid">
+                    <div class="resource-card">
+                        <div class="resource-icon">📋</div>
+                        <h3>Character Sheets</h3>
+                        <p>Official D&D 5e character sheets</p>
+                        <a href="https://dnd.wizards.com/resources/character-sheets" target="_blank" class="resource-link">Download ↗</a>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-icon">🎲</div>
+                        <h3>D&D Beyond</h3>
+                        <p>Digital character management</p>
+                        <a href="https://www.dndbeyond.com" target="_blank" class="resource-link">Open ↗</a>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-icon">⚔️</div>
+                        <h3>Spell Cards</h3>
+                        <p>Quick reference for spells</p>
+                        <a href="/wiki/rules/spells" class="resource-link">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resources-section">
+                <h2>🗺️ Campaign Maps</h2>
+                <div class="resource-grid">
+                    <div class="resource-card">
+                        <div class="resource-icon">🏰</div>
+                        <h3>Thornkeep City Map</h3>
+                        <p>Detailed city map with districts</p>
+                        <a href="/resources/maps/thornkeep-city.jpg" class="resource-link">View Map</a>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-icon">🌲</div>
+                        <h3>Regional Map</h3>
+                        <p>Aethermoor region overview</p>
+                        <a href="/resources/maps/region-map.jpg" class="resource-link">View Map</a>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-icon">⚔️</div>
+                        <h3>Battle Maps</h3>
+                        <p>Tactical combat maps</p>
+                        <a href="/resources/maps/" class="resource-link">Browse</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resources-section">
+                <h2>📖 Reference Materials</h2>
+                <div class="resource-grid">
+                    <div class="resource-card">
+                        <div class="resource-icon">📜</div>
+                        <h3>House Rules</h3>
+                        <p>Our campaign-specific rules</p>
+                        <a href="/wiki/rules" class="resource-link">View Rules</a>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-icon">🎭</div>
+                        <h3>NPC Directory</h3>
+                        <p>All NPCs encountered</p>
+                        <a href="/wiki/npcs" class="resource-link">View NPCs</a>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-icon">🏛️</div>
+                        <h3>Factions</h3>
+                        <p>Organizations and groups</p>
+                        <a href="/wiki/factions" class="resource-link">View Factions</a>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-icon">💎</div>
+                        <h3>Magic Items</h3>
+                        <p>Campaign magic items</p>
+                        <a href="/wiki/items" class="resource-link">View Items</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="resources-section">
+                <h2>🔗 External Tools</h2>
+                <div class="resource-grid">
+                    <div class="resource-card">
+                        <div class="resource-icon">🎲</div>
+                        <h3>Dice Roller</h3>
+                        <p>Online dice rolling tool</p>
+                        <a href="https://www.roll20.net/compendium/dnd5e/Dice%20Reference" target="_blank" class="resource-link">Roll Dice ↗</a>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-icon">📚</div>
+                        <h3>D&D 5e SRD</h3>
+                        <p>System Reference Document</p>
+                        <a href="https://www.5esrd.com/" target="_blank" class="resource-link">Open SRD ↗</a>
+                    </div>
+                    <div class="resource-card">
+                        <div class="resource-icon">🎵</div>
+                        <h3>Ambient Music</h3>
+                        <p>D&D ambience and music</p>
+                        <a href="https://tabletopaudio.com/" target="_blank" class="resource-link">Listen ↗</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <aside class="sidebar-right">
+            <div class="quick-links-widget">
+                <h3>Quick Access</h3>
+                <ul>
+                    <li><a href="#character">Character Resources</a></li>
+                    <li><a href="#maps">Campaign Maps</a></li>
+                    <li><a href="#reference">Reference Materials</a></li>
+                    <li><a href="#tools">External Tools</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <div id="chatbot-container"></div>
+
+    <script src="js/main.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+</html>

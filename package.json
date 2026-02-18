@@ -1,0 +1,24 @@
+{
+  "name": "campaign-chatbot",
+  "version": "1.0.0",
+  "description": "D&D campaign chatbot powered by Claude API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["dnd", "chatbot", "claude", "campaign"],
+  "author": "Dustin - Crimson Tavern DM",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "express": "^4.21.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

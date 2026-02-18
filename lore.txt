@@ -1,0 +1,106 @@
+=== THE CRIMSON TAVERN CHRONICLES ===
+Campaign Lore & World-Building Guide
+
+=== THE WORLD ===
+
+This campaign takes place in the Eastern Highlands, a region of ancient cities, dangerous mountains, and forgotten ruins. The world is in a period known as the Third Age, roughly a thousand years after the cataclysmic events that ended the First Age and reshaped the land.
+
+The campaign focuses on a brewing conflict between order and chaos, as dark forces seek to unearth powers that were sealed away for good reason.
+
+=== THE FIRST AGE & THE BINDING ===
+
+The First Age was a time of tremendous magical power, when ancient civilizations commanded forces that modern scholars barely understand. This age ended in a cataclysm known as "The Binding of the Five."
+
+According to fragmentary texts and archaeological evidence:
+- Five tremendous entities of elemental power (referred to as "Titans") threatened to tear the world apart
+- The greatest mages and clerics of the First Age united in a desperate ritual
+- The Titans were imprisoned beneath the Shadowpeak Mountains
+- The ritual required five artifacts of power, which were then scattered and hidden
+- The civilization that performed the Binding did not survive its aftermath
+- The exact nature of the Titans remains unclear - were they gods? Primordial elementals? Something else?
+
+Most modern scholars consider this mythology rather than history. Recent events suggest they may be wrong.
+
+=== THE CRIMSON HAND ===
+
+The Crimson Hand emerged twenty years ago as a secretive criminal organization operating across the Eastern Highlands. In recent years, they've revealed themselves as something more dangerous: a cult devoted to dark powers.
+
+Known facts about the Crimson Hand:
+- Led by Lord Malachar the Crimson, a former noble turned warlock
+- Organized in cells across multiple cities
+- Uses a combination of political manipulation, criminal activity, and dark magic
+- Members wear crimson hand symbols and often bear magical marks
+- Has infiltrated multiple levels of society, from thieves' guilds to noble courts
+
+Lord Malachar's True Goal:
+As revealed in recent sessions, Malachar seeks to gather the Five Artifacts used in the original Binding ritual. His stated intention is to "awaken the sleeping titans" beneath the Shadowpeak Mountains. Whether he plans to control them or simply release them remains unknown.
+
+The Five Artifacts (known):
+1. The Shard of Eternity - Recently recovered by the party
+2. The Crown of Echoes - Taken from The Shattered Spire by the Crimson Hand
+3. [Three artifacts yet unknown]
+
+=== THORNKEEP & THE EASTERN HIGHLANDS ===
+
+Thornkeep: The primary setting for much of the campaign. Built on First Age ruins, this fortified city serves as a crossroads for trade and a bulwark against dangers from the east. Recently liberated from Crimson Hand occupation.
+
+The Eastern Highlands: A region of rolling hills, ancient forests, and scattered settlements. Rich in history and resources, but plagued by monsters and banditry. The Shadowpeak Mountains loom to the east, marking the edge of explored territory.
+
+Other Notable Locations:
+- Silverport: Coastal city three weeks' travel west, major trade hub
+- The Whispering Woods: Enchanted forest said to be home to fey creatures
+- Dragon's Rest: Abandoned fortress in the northern highlands
+- The Shattered Spire: Ancient First Age ruin, now plundered by the Crimson Hand
+
+=== THE SILVER COMPANY ===
+
+A respected mercenary guild that operates under a strict code of honor. Unlike common sellswords, the Silver Company:
+- Refuses contracts that conflict with basic morality
+- Maintains high standards of conduct
+- Functions as a quasi-military organization
+- Has earned respect across the realm for reliability and ethics
+
+Led by Valdris the Blade, the Silver Company has become crucial allies to the party.
+
+=== MAGIC & THE GODS ===
+
+Magic in this world is relatively common but still respected and sometimes feared. Multiple types of magic exist:
+- Divine magic granted by the gods
+- Arcane magic learned through study
+- Pact magic gained through deals with powerful entities
+- Natural magic from the world itself
+
+The Gods:
+Multiple pantheons coexist in this world. The Church of the Dawn (devoted to a god of light and healing) is prominent in Thornkeep, but many other faiths exist. The gods are real and sometimes intervene in mortal affairs, though usually subtly.
+
+Dark Powers:
+Malachar's patron entity remains mysterious. It's clearly powerful enough to grant warlock abilities, but its true nature and goals are unknown. Some theorize it might be connected to the imprisoned Titans.
+
+=== CURRENT SITUATION (Session 47) ===
+
+- Thornkeep has been liberated but is badly damaged
+- Lord Malachar has escaped to the Shadowpeak Mountains
+- Valdris is critically wounded but recovering
+- The party possesses the Shard of Eternity but doesn't fully understand it
+- The Crimson Hand has at least one artifact and knows where others are located
+- Citizens are scared and leadership is in chaos
+- Winter is approaching, which will make mountain travel extremely dangerous
+
+The party faces a crucial decision: pursue Malachar now or take time to regroup and prepare.
+
+=== MAJOR THEMES ===
+
+This campaign explores several key themes:
+- The cost of heroism (exemplified by Valdris's sacrifice)
+- Moral complexity (pursuit vs. protection, ends vs. means)
+- The danger of seeking forbidden knowledge
+- Found family and loyalty (the party, the Silver Company)
+- The weight of history (the consequences of First Age actions)
+
+=== DM'S SECRET NOTES (Players don't have access to this section) ===
+
+Truth about the Titans: They're not evil, just tremendously powerful elemental forces that were out of balance. The Binding wasn't a prison - it was a way to put them into stasis until the world could sustain their presence again. Malachar doesn't know this and may accidentally cause a catastrophe.
+
+Valdris's Secret: His father was one of the mages who researched the Binding in modern times. His "fall from grace" was actually him refusing to help Baron Corvain find one of the Five Artifacts.
+
+The Shard's True Purpose: It's not just one of the Five - it's the linchpin. Without it, the other four artifacts can't actually break the Binding. The party has more power than they realize.

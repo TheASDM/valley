@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Archive - The Crimson Tavern Chronicles</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        .sessions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: var(--spacing-lg);
+            margin-top: var(--spacing-lg);
+        }
+        
+        .session-card {
+            background: var(--medium-bg);
+            padding: var(--spacing-lg);
+            border-radius: 8px;
+            border: 2px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+        
+        .session-card:hover {
+            border-color: var(--primary-color);
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+        
+        .session-number {
+            font-size: 3rem;
+            font-family: var(--font-header);
+            color: var(--primary-color);
+            text-align: center;
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .session-title {
+            text-align: center;
+            margin-bottom: var(--spacing-md);
+        }
+        
+        .session-stats {
+            display: flex;
+            justify-content: space-around;
+            margin: var(--spacing-md) 0;
+            padding: var(--spacing-sm) 0;
+            border-top: 1px solid var(--border-color);
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            color: var(--accent-color);
+            font-weight: 700;
+        }
+        
+        .stat-label {
+            font-size: 0.8rem;
+            color: var(--secondary-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar-left">
+            <div class="logo-section">
+                <h1 class="site-title">The Crimson<br>Tavern Chronicles</h1>
+                <p class="campaign-tagline">A D&D 5e Campaign</p>
+            </div>
+
+            <nav class="main-nav">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/wiki">Campaign Wiki</a></li>
+                    <li><a href="sessions.html" class="active">Session Archive</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+
+                <h3>Wiki Sections</h3>
+                <ul>
+                    <li><a href="/wiki/npcs">NPCs</a></li>
+                    <li><a href="/wiki/locations">Locations</a></li>
+                    <li><a href="/wiki/factions">Factions</a></li>
+                    <li><a href="/wiki/lore">Lore & History</a></li>
+                    <li><a href="/wiki/items">Magic Items</a></li>
+                    <li><a href="/wiki/rules">House Rules</a></li>
+                </ul>
+            </nav>
+
+            <div class="next-session-widget">
+                <h3>Next Session</h3>
+                <div id="session-info">
+                    <div class="session-date">Loading...</div>
+                    <div class="countdown" id="countdown">--</div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="content">
+            <h1>Session Archive</h1>
+            <p>A complete history of our adventures in the world of Aethermoor.</p>
+
+            <div class="sessions-grid" id="sessions-grid">
+                <div class="loading">Loading sessions...</div>
+            </div>
+        </main>
+
+        <aside class="sidebar-right">
+            <div class="quick-links-widget">
+                <h3>Campaign Stats</h3>
+                <ul>
+                    <li>Total Sessions: <strong id="total-sessions">--</strong></li>
+                    <li>Total XP Earned: <strong id="total-xp">--</strong></li>
+                    <li>Bosses Defeated: <strong id="bosses-defeated">--</strong></li>
+                    <li>NPCs Met: <strong id="npcs-met">--</strong></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <div id="chatbot-container"></div>
+
+    <script src="js/main.js"></script>
+    <script src="js/chatbot.js"></script>
+    <script src="js/countdown.js"></script>
+    <script>
+        // Load sessions from campaign data
+        async function loadSessions() {
+            const grid = document.getElementById('sessions-grid');
+            
+            try {
+                const data = await fetchJSON('data/updates.json');
+                const sessions = data.updates.filter(u => u.type === 'session-recap');
+                
+                if (sessions.length === 0) {
+                    grid.innerHTML = '<p>No sessions recorded yet.</p>';
+                    return;
+                }
+                
+                // Update stats
+                document.getElementById('total-sessions').textContent = sessions.length;
+                
+                // Display sessions
+                grid.innerHTML = sessions.map(session => `
+                    <div class="session-card">
+                        <div class="session-number">#${session.session}</div>
+                        <h3 class="session-title">${session.title}</h3>
+                        <div class="session-stats">
+                            <div class="stat">
+                                <div class="stat-value">${formatDate(session.date)}</div>
+                                <div class="stat-label">Date</div>
+                            </div>
+                        </div>
+                        <p>${truncateText(session.content, 150)}</p>
+                        ${session.tags ? `
+                            <div class="update-tags">
+                                ${session.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+                            </div>
+                        ` : ''}
+                        ${session.wikiLink ? `<a href="${session.wikiLink}" class="read-more">Full Recap →</a>` : ''}
+                    </div>
+                `).join('');
+                
+            } catch (error) {
+                showError(grid, 'Failed to load sessions');
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', loadSessions);
+    </script>
+</body>
+</html>

@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Crimson Tavern Chronicles | Campaign Hub</title>
+    <meta name="description" content="Your gateway to adventure - campaign updates, lore, and more">
+    
+    <!-- Google Fonts - Medieval/Fantasy aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎲</text></svg>">
+</head>
+<body>
+    <!-- Ambient background effects -->
+    <div class="background-overlay"></div>
+    <div class="candlelight-glow"></div>
+    
+    <!-- Main site header -->
+    <header class="site-header">
+        <div class="header-content">
+            <div class="campaign-logo">
+                <div class="dice-icon">⚔️</div>
+                <div class="campaign-title">
+                    <h1>The Crimson Tavern Chronicles</h1>
+                    <p class="campaign-tagline">Tales of valor, mystery, and dice rolls</p>
+                </div>
+            </div>
+            <nav class="quick-nav">
+                <a href="#latest" class="nav-link">Latest</a>
+                <a href="/wiki" class="nav-link">Wiki</a>
+                <a href="#sessions" class="nav-link">Sessions</a>
+                <a href="#resources" class="nav-link">Resources</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Three-column layout -->
+    <div class="container">
+        
+        <!-- Left Sidebar - Navigation -->
+        <aside class="sidebar sidebar-left">
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">Navigation</h2>
+                <nav class="main-nav">
+                    <a href="/" class="nav-item active">
+                        <span class="nav-icon">🏠</span>
+                        <span>Home</span>
+                    </a>
+                    <a href="#updates" class="nav-item">
+                        <span class="nav-icon">📜</span>
+                        <span>Campaign Updates</span>
+                    </a>
+                    <a href="/wiki" class="nav-item">
+                        <span class="nav-icon">📖</span>
+                        <span>Campaign Wiki</span>
+                    </a>
+                    
+                    <div class="nav-divider"></div>
+                    <p class="nav-category">Wiki Sections</p>
+                    
+                    <a href="/wiki/locations" class="nav-item sub-item">
+                        <span class="nav-icon">🗺️</span>
+                        <span>Locations</span>
+                    </a>
+                    <a href="/wiki/npcs" class="nav-item sub-item">
+                        <span class="nav-icon">👥</span>
+                        <span>NPCs & Factions</span>
+                    </a>
+                    <a href="/wiki/lore" class="nav-item sub-item">
+                        <span class="nav-icon">✨</span>
+                        <span>Lore & History</span>
+                    </a>
+                    <a href="/wiki/items" class="nav-item sub-item">
+                        <span class="nav-icon">⚔️</span>
+                        <span>Magic Items</span>
+                    </a>
+                    <a href="/wiki/rules" class="nav-item sub-item">
+                        <span class="nav-icon">📋</span>
+                        <span>House Rules</span>
+                    </a>
+                    
+                    <div class="nav-divider"></div>
+                    
+                    <a href="#sessions" class="nav-item">
+                        <span class="nav-icon">🎭</span>
+                        <span>Session Archive</span>
+                    </a>
+                    <a href="#resources" class="nav-item">
+                        <span class="nav-icon">📚</span>
+                        <span>Resources</span>
+                    </a>
+                </nav>
+            </div>
+            
+            <!-- Next Session Countdown -->
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">Next Session</h2>
+                <div class="session-countdown">
+                    <div class="countdown-display" id="countdown">
+                        <div class="countdown-part">
+                            <span class="countdown-value" id="days">0</span>
+                            <span class="countdown-label">Days</span>
+                        </div>
+                        <div class="countdown-part">
+                            <span class="countdown-value" id="hours">0</span>
+                            <span class="countdown-label">Hours</span>
+                        </div>
+                        <div class="countdown-part">
+                            <span class="countdown-value" id="minutes">0</span>
+                            <span class="countdown-label">Min</span>
+                        </div>
+                    </div>
+                    <div class="session-details">
+                        <p class="session-date" id="next-session-date">Saturday, January 20, 2026</p>
+                        <p class="session-time">7:00 PM CST</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Party Status -->
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">Party Status</h2>
+                <div class="party-status">
+                    <div class="status-item">
+                        <span class="status-label">Current Level:</span>
+                        <span class="status-value">12</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">Location:</span>
+                        <span class="status-value">Thornkeep</span>
+                    </div>
+                    <div class="status-item">
+                        <span class="status-label">Active Quests:</span>
+                        <span class="status-value">3</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            
+            <!-- Hero/Latest Update -->
+            <section class="hero-update" id="latest">
+                <div class="update-badge">Latest Update</div>
+                <div class="update-content" id="hero-update">
+                    <h2 class="update-title">Session 47: The Fall of Thornkeep</h2>
+                    <div class="update-meta">
+                        <span class="update-date">📅 January 15, 2026</span>
+                        <span class="update-type">Session Recap</span>
+                    </div>
+                    <div class="update-body">
+                        <p>The party finally confronted Lord Malachar in the throne room of Thornkeep. After an intense battle that saw both victories and devastating losses, the dark lord's plans were revealed - the Crimson Hand had been gathering artifacts of power across the realm, and Thornkeep was merely the first domino to fall.</p>
+                        
+                        <p>With Valdris gravely wounded and the city in chaos, the party must now decide: pursue Malachar to his stronghold in the Shadowpeak Mountains, or stay to help rebuild what was lost?</p>
+                        
+                        <div class="update-highlights">
+                            <h3>Session Highlights:</h3>
+                            <ul>
+                                <li>Epic boss battle with Lord Malachar (Phase 1 complete)</li>
+                                <li>Revelation of the Crimson Hand's master plan</li>
+                                <li>Valdris critically injured protecting the party</li>
+                                <li>Discovery of the Shard of Eternity among the ruins</li>
+                                <li>Moral dilemma: Pursuit vs. Protection</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="update-rewards">
+                            <p><strong>Rewards Earned:</strong> 8,500 XP each, Shard of Eternity (artifact), +2 Standing with Thornkeep Refugees</p>
+                        </div>
+                    </div>
+                    <a href="/wiki/sessions/session-47" class="read-more-btn">Read Full Recap →</a>
+                </div>
+            </section>
+
+            <!-- Upcoming Session Info -->
+            <section class="upcoming-session">
+                <div class="session-card">
+                    <div class="session-header">
+                        <h3>⚔️ Next Session Preview</h3>
+                    </div>
+                    <div class="session-preview">
+                        <p><strong>Session 48: "Shadows of the Past"</strong></p>
+                        <p>As the party tends to their wounds and weighs their options, a mysterious figure from Valdris's past arrives with crucial information about the Shadowpeak Mountains - and a dark secret that could change everything.</p>
+                        <p class="session-note">Prepare yourselves for revelations, tough choices, and the beginning of the endgame...</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recent Updates Feed -->
+            <section class="updates-feed" id="updates">
+                <h2 class="section-title">Recent Campaign Updates</h2>
+                <div class="updates-grid" id="recent-updates">
+                    <!-- Updates loaded dynamically by JavaScript -->
+                    <div class="update-card" data-type="lore">
+                        <div class="card-header">
+                            <span class="card-type">Lore Update</span>
+                            <span class="card-date">Jan 12, 2026</span>
+                        </div>
+                        <h3 class="card-title">New NPC: Valdris the Blade</h3>
+                        <p class="card-excerpt">The veteran mercenary captain has been added to the wiki with full background, stats, and relationship details...</p>
+                        <a href="/wiki/npcs/valdris" class="card-link">View in Wiki →</a>
+                    </div>
+
+                    <div class="update-card" data-type="map">
+                        <div class="card-header">
+                            <span class="card-type">Map Update</span>
+                            <span class="card-date">Jan 10, 2026</span>
+                        </div>
+                        <h3 class="card-title">Thornkeep District Map Updated</h3>
+                        <p class="card-excerpt">New detailed map of Thornkeep including the throne room, crypts, and newly discovered secret passages...</p>
+                        <a href="#resources" class="card-link">Download Map →</a>
+                    </div>
+
+                    <div class="update-card" data-type="rules">
+                        <div class="card-header">
+                            <span class="card-type">House Rule</span>
+                            <span class="card-date">Jan 8, 2026</span>
+                        </div>
+                        <h3 class="card-title">Critical Hit Mechanics Updated</h3>
+                        <p class="card-excerpt">New critical hit table added for more dramatic combat moments. Maximum damage + roll damage dice once more...</p>
+                        <a href="/wiki/rules/combat" class="card-link">See Rules →</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Session Archive Preview -->
+            <section class="session-archive-preview" id="sessions">
+                <h2 class="section-title">Session Archive</h2>
+                <div class="sessions-list">
+                    <a href="/wiki/sessions/session-47" class="session-item current">
+                        <span class="session-number">47</span>
+                        <div class="session-info">
+                            <h4>The Fall of Thornkeep</h4>
+                            <p>Jan 13, 2026 • Boss Battle, Major Plot</p>
+                        </div>
+                    </a>
+                    <a href="/wiki/sessions/session-46" class="session-item">
+                        <span class="session-number">46</span>
+                        <div class="session-info">
+                            <h4>Infiltrating the Keep</h4>
+                            <p>Jan 6, 2026 • Stealth, Investigation</p>
+                        </div>
+                    </a>
+                    <a href="/wiki/sessions/session-45" class="session-item">
+                        <span class="session-number">45</span>
+                        <div class="session-info">
+                            <h4>Allies in the Shadows</h4>
+                            <p>Dec 23, 2025 • Social, Planning</p>
+                        </div>
+                    </a>
+                </div>
+                <a href="/wiki/sessions" class="view-all-btn">View All Sessions →</a>
+            </section>
+
+        </main>
+
+        <!-- Right Sidebar - Chatbot & Resources -->
+        <aside class="sidebar sidebar-right">
+            
+            <!-- Chatbot Widget -->
+            <div class="sidebar-section chatbot-section">
+                <h2 class="sidebar-title">
+                    <span>🎲 Lore Master</span>
+                    <button class="chatbot-toggle" id="chatbot-toggle" aria-label="Toggle chat">▼</button>
+                </h2>
+                <div class="chatbot-container" id="chatbot-container">
+                    <div class="chatbot-intro">
+                        <p>Ask me about NPCs, locations, lore, past sessions, or rules!</p>
+                        <div class="example-queries">
+                            <button class="query-btn" data-query="Who is Valdris?">Who is Valdris?</button>
+                            <button class="query-btn" data-query="What happened in Thornkeep?">What happened in Thornkeep?</button>
+                            <button class="query-btn" data-query="Tell me about the Crimson Hand">About the Crimson Hand</button>
+                        </div>
+                    </div>
+                    <div class="chat-messages" id="chat-messages"></div>
+                    <div class="chat-input-area">
+                        <input 
+                            type="text" 
+                            id="chat-input" 
+                            placeholder="Ask about campaign lore..."
+                            autocomplete="off"
+                        >
+                        <button id="send-btn" aria-label="Send message">
+                            <span>→</span>
+                        </button>
+                    </div>
+                    <button class="clear-chat-btn" id="clear-chat">Clear History</button>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">Quick Links</h2>
+                <div class="quick-links">
+                    <a href="#" class="quick-link" onclick="alert('Character sheets feature coming soon!')">
+                        <span class="link-icon">📄</span>
+                        <span>Character Sheets</span>
+                    </a>
+                    <a href="#resources" class="quick-link">
+                        <span class="link-icon">🗺️</span>
+                        <span>Maps & Handouts</span>
+                    </a>
+                    <a href="/wiki/rules" class="quick-link">
+                        <span class="link-icon">📏</span>
+                        <span>House Rules</span>
+                    </a>
+                    <a href="#" class="quick-link" onclick="alert('Initiative tracker coming soon!')">
+                        <span class="link-icon">⚔️</span>
+                        <span>Initiative Tracker</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Recent Wiki Changes -->
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">Recent Wiki Updates</h2>
+                <div class="wiki-changes">
+                    <a href="/wiki/npcs/valdris" class="wiki-change-item">
+                        <span class="change-icon">✏️</span>
+                        <div class="change-info">
+                            <p class="change-title">Valdris the Blade</p>
+                            <p class="change-meta">Updated 2 days ago</p>
+                        </div>
+                    </a>
+                    <a href="/wiki/locations/thornkeep" class="wiki-change-item">
+                        <span class="change-icon">✏️</span>
+                        <div class="change-info">
+                            <p class="change-title">Thornkeep</p>
+                            <p class="change-meta">Updated 4 days ago</p>
+                        </div>
+                    </a>
+                    <a href="/wiki/items/shard-of-eternity" class="wiki-change-item">
+                        <span class="change-icon">✨</span>
+                        <div class="change-info">
+                            <p class="change-title">Shard of Eternity</p>
+                            <p class="change-meta">New 5 days ago</p>
+                        </div>
+                    </a>
+                </div>
+                <a href="/wiki" class="view-all-link">Browse Full Wiki →</a>
+            </div>
+
+        </aside>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>The Crimson Tavern Chronicles • Dungeon Master: Dustin</p>
+            <p class="footer-note">May your rolls be high and your adventures legendary</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/countdown.js"></script>
+    <script src="js/chatbot.js"></script>
+    <script src="js/updates.js"></script>
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
